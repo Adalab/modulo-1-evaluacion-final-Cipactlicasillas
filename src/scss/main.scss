@@ -14,31 +14,36 @@
 :root{
   --font-family:"Roboto Slab", serif;
   font-optical-sizing: auto;
-  font-weight: weight;
   font-style: normal;
 }
-.arriba{
+.container{
 background-image: url('../images/cover.jpeg');
-height: 100vh;
-background-size: 100vh;
+height: 90vh;
+background-size: cover;
 background-repeat: no-repeat;
-box-sizing: border-box;
+background-position: center;
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: center;
-
-}
-.arribados{
-  color: white;
+align-items:center;
+margin-bottom: 2rem;
 }
 .principal{
  font-family: var(--font-family);
  color: white;
+ font-size: 4.03rem;
+}
+.arriba{
+  color: white;
+  font-size: 1.5rem;
 }
 .tips{
   font-family: var(font-family);
   border: solid 4px firebrick;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
 
 }
 .ventana{font-family: var(--font-family)
