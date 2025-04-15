@@ -3,15 +3,60 @@
   margin: 0;
   padding: 0;
 }
+:root{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+:root{
+  --font-family:"Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.arriba{
+background-image: url('../images/cover.jpeg');
+height: 100vh;
+background-size: 100vh;
+background-repeat: no-repeat;
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.arribados{
+  color: white;
+}
 .principal{
-border: solid 3px blue;
+ font-family: var(--font-family);
+ color: white;
 }
 .tips{
+  font-family: var(font-family);
   border: solid 4px firebrick;
 
 }
+.ventana{font-family: var(--font-family)
+}
 .razones{
   border: solid 4px blue
+}
+.uno{
+  font-family: var(--font-family)
+}
+.dos{
+  font-family: var(--font-family)
+}
+.tres{
+  font-family: var(--font-family)
+}
+.compra{
+  font-family: var(--font-family)
 }
 .info{
   border: solid 4px blue
