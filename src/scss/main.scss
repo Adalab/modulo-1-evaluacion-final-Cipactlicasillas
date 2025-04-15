@@ -128,18 +128,38 @@ margin-bottom: 2rem;
   margin-bottom: 2rem;
 }
 .pie{
-  background-color:  #304268;
+  background-color:  #304268; 
+  padding-top: 3rem;
   display: flex;
   flex-direction: column;
-  justify-content:center;
-  align-items: center;
-  justify-content: space-around;
-  color: white;
-  text-decoration: none;
-  list-style: none;
+  padding: 3rem;
 }
-.articulos{
-  font-size: 1rem;
-  color: white;
+.lista {
+list-style: none;
+text-align: center;
+
 }
 
+.menu_lista{
+color: white;
+text-decoration: none;
+}
+.rrss{
+  list-style: none;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 2rem;
+}
+.menu_rrss{
+  color: white;
+  text-decoration: none;
+  gap: 1rem;
+}
+.copy{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  padding-top: 2rem;
+  
+}
