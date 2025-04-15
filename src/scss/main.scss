@@ -18,7 +18,7 @@
 }
 .container{
 background-image: url('../images/cover.jpeg');
-height: 90vh;
+height: 92vh;
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -42,13 +42,12 @@ margin-bottom: 2rem;
 .tips{
   font-family: var(font-family);
   background-color: white;
-  height: 59vh;
+  height: 45vh;
   display: flex;
   flex-direction: column;
   justify-content:left;
   align-items:flex-start;
   padding: 15px;
-  justify-content: inherit;
 
 }
 .insomnia{
@@ -62,7 +61,6 @@ margin-bottom: 2rem;
   font-size: 2rem;
   padding-top: 0.5rem;
   padding-bottom: 1rem;
-
 }
 .info {
   color: #4a4a4a;
@@ -78,28 +76,60 @@ margin-bottom: 2rem;
   border-radius: 20px;
   margin-top: 1.5rem;
 }
-
 .razones{
-  border: solid 4px blue
-}
-.uno{
-  font-family: var(--font-family)
-}
-.dos{
-  font-family: var(--font-family)
-}
-.tres{
-  font-family: var(--font-family)
+  background-color: #eff9ff;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  justify-content: space-around;
 }
 .compra{
-  font-family: var(--font-family)
+  font-family: var(--font-family);
+  font-size: 2rem;
+  display: block;
+  padding-top: 1.5rem;
 }
-.info{
-  border: solid 4px blue
+
+.uno{
+  font-family: var(--font-family);
+  font-size: 1.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  text-align: center;
+  padding-top: 1.6rem;
 }
+.dos{
+  font-family: var(--font-family);
+  font-size: 1.5rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  text-align: center;
+  padding-top: 1.6rem;
+}
+.tres{
+  font-family: var(--font-family);
+  font-size: 1.5rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  text-align: center;
+  padding-top: 1.6rem;
+}
+.mas{
+  display: block;
+  background-color: #f26002;
+  padding-block: 0.9rem;
+  padding-inline: 4rem;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 2rem;
+  margin-top: 1.3rem;
+  margin-bottom: 2rem;
+}
+
 .rrss{
-  border: solid 4px blue
 }
 .copy{
-  border: solid 4px yellow;
+
 }
