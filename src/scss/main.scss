@@ -196,6 +196,11 @@
   text-align: center;
   color: white;
   padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+.copy_lista {
+  list-style: none;
+  text-align: center;
 }
 @media (width > 480px) {
   .principal {
@@ -256,5 +261,21 @@
     margin-bottom: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+  .pie {
+    background-color: #304268;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .flecha_arriba {
+    grid-column: 2 /4;
+  }
+  .lista {
+    grid-column: 2 / 3;
+  }
+  .rrss .copy {
+    grid-column: 1 / 2;
+    padding: 0;
+    justify-content: start;
   }
 }
