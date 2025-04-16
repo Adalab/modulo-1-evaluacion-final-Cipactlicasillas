@@ -127,16 +127,20 @@ margin-bottom: 2rem;
 
   }
   .compra{
+    margin-top: 2rem;
     text-align: center;
     font-family: var(--font-family);
     grid-column: 1 / 5;
     text-align: center;
+    font-size: 1.3rem;
   }
   .uno{
+    font-size: 0.85rem;
     padding-top: 1rem;
     font-family: var(--font-family);
     grid-column: 2 / 3;
     text-align: center;
+    font-size: 0.85rem;
   }
  .uno_uno{
   grid-column: 2 / 3;
@@ -148,7 +152,8 @@ margin-bottom: 2rem;
     font-family: var(--font-family);
     grid-column: 2 / 3;
     text-align: center;
-    font-size: 0.95rem;
+    font-size: 0.85rem;
+    
   }
   .dos_dos{
     grid-column: 2 / 3;
@@ -157,6 +162,7 @@ margin-bottom: 2rem;
   }
   
   .tres{
+    font-size: 0.85rem;
     padding-top: 1rem;
     font-family: var(--font-family);
     grid-column: 2 / 3;
@@ -168,13 +174,15 @@ margin-bottom: 2rem;
     font-size: 0.8rem;
   }
   .mas{
-  grid-column: 2 / 3;
+  grid-column: 1 / 5;
   background-color: #f26002;
   font-size: 0.95rem;
-  text-align: center;
   color: white;
-  border-radius: 2rem;
-  padding: 0.5rem;
+  border-radius: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
   }
 
   /*
