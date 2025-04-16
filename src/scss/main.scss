@@ -18,7 +18,7 @@
 }
 .container{
 background-image: url('../images/cover.jpeg');
-height: 92vh;
+height: 100vh;
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -42,7 +42,7 @@ margin-bottom: 2rem;
 .tips{
   font-family: var(font-family);
   background-color: white;
-  height: 45vh;
+  height:auto;
   display: flex;
   flex-direction: column;
   justify-content:left;
@@ -76,6 +76,7 @@ margin-bottom: 2rem;
   border-radius: 20px;
   margin-top: 1.5rem;
 }
+/*
 .razones{
   background-color: #eff9ff;
   height: 75vh;
@@ -116,6 +117,67 @@ margin-bottom: 2rem;
   text-align: center;
   padding-top: 1.6rem;
 }
+  */
+  .razones{
+    height: auto;
+    background-color: #eff9ff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 1rem;
+
+  }
+  .compra{
+    text-align: center;
+    font-family: var(--font-family);
+    grid-column: 1 / 5;
+    text-align: center;
+  }
+  .uno{
+    padding-top: 1rem;
+    font-family: var(--font-family);
+    grid-column: 2 / 3;
+    text-align: center;
+  }
+ .uno_uno{
+  grid-column: 2 / 3;
+  text-align: center;
+  font-size: 0.7rem;
+ }
+  .dos{
+    padding-top: 1rem;
+    font-family: var(--font-family);
+    grid-column: 2 / 3;
+    text-align: center;
+    font-size: 0.95rem;
+  }
+  .dos_dos{
+    grid-column: 2 / 3;
+    text-align:center;
+    font-size: 0.8rem;
+  }
+  
+  .tres{
+    padding-top: 1rem;
+    font-family: var(--font-family);
+    grid-column: 2 / 3;
+    text-align: center;
+  }
+  .tres_tres{
+    grid-column: 2 / 3;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  .mas{
+  grid-column: 2 / 3;
+  background-color: #f26002;
+  font-size: 0.95rem;
+  text-align: center;
+  color: white;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  }
+
+  /*
 .mas{
   display: block;
   background-color: #f26002;
@@ -127,6 +189,7 @@ margin-bottom: 2rem;
   margin-top: 1.3rem;
   margin-bottom: 2rem;
 }
+  */
 .pie{
   background-color:  #304268; 
   padding-top: 3rem;
@@ -161,5 +224,5 @@ text-decoration: none;
   text-align: center;
   color: white;
   padding-top: 2rem;
-  
+
 }
