@@ -136,17 +136,7 @@
   text-align: center;
   padding-top: 1.6rem;
 }
-.mas {
-  display: block;
-  background-color: #f26002;
-  padding-block: 0.9rem;
-  padding-inline: 4rem;
-  font-size: 1.5rem;
-  color: white;
-  border-radius: 2rem;
-  margin-top: 1.3rem;
-  margin-bottom: 2rem;
-}
+
 .mas {
   display: block;
   background-color: #f26002;
@@ -163,10 +153,10 @@
 
 .pie {
   background-color: #304268;
-  padding-top: 3rem;
   display: flex;
   flex-direction: column;
-  padding: 3rem;
+  align-items: center;
+  justify-content: start;
 }
 
 .flecha_arriba {
@@ -178,6 +168,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 1rem;
 }
 .lista {
   list-style: none;

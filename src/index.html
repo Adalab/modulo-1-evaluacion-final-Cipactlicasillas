@@ -12,15 +12,15 @@
     />
     <link rel="stylesheet" href="./scss/main.scss" />
   </head>
-  <header>
+  <header id="inicio">
     <a class="hamburguesa" href="https://adalab.es/">
       <img src="./images/ico-menu.svg" alt="botón acceso" />
     </a>
     <article class="container">
       <h1 class="principal">ANONYMOUS PROXY</h1>
       <p class="arriba">In hac habitasse platea dictumst.</p>
-      <a class="scroll" href="#razones"
-        ><img src="./images/ico-scroll-down.svg" alt="sd"
+      <a href="#razones"
+        ><img class="scroll" src="./images/ico-scroll-down.svg" alt="sd"
       /></a>
     </article>
   </header>
@@ -34,7 +34,7 @@
       </p>
       <div class="ir"><strong>Go</strong></div>
     </section>
-    <section class="razones">
+    <section class="razones" id="razones">
       <h3 class="compra">3 Reasons To Purchase</h3>
       <p class="uno">
         <strong>Ut sed metus</strong><br />Lorem ipsum dolor sit amet,
@@ -55,8 +55,11 @@
     </section>
   </body>
   <footer class="pie">
-    <a class="flecha_arriba" href="https://adalab.es/"
-      ><img src="./images/ico-arrow.svg" alt="flecha sube"
+    <a href="#inicio"
+      ><img
+        class="flecha_arriba"
+        src="./images/ico-arrow.svg"
+        alt="flecha sube"
     /></a>
     <ul class="lista">
       <li>
