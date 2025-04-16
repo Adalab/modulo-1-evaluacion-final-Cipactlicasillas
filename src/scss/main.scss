@@ -167,11 +167,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
+  position: relative;
+  transform: translate(0, -50%);
   margin-bottom: 1rem;
 }
+
 .lista {
   list-style: none;
   text-align: center;
+  margin-bottom: 0.5rem;
 }
 
 .menu_lista {
@@ -182,12 +187,11 @@
   list-style: none;
   flex-direction: column;
   text-align: center;
-  padding-top: 2rem;
+  margin-top: 1rem;
 }
 .menu_rrss {
   color: white;
   text-decoration: none;
-  gap: 1rem;
 }
 .copy {
   display: flex;
@@ -264,6 +268,11 @@
     margin-bottom: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+  .flecha_arriba {
+    position: relative;
+    transform: translate(0, -100%);
+    margin-bottom: 1rem;
   }
   .pie {
     display: grid;
@@ -374,6 +383,9 @@
     grid-column: 2 / 3;
     margin-left: 10rem;
     margin-right: 10rem;
+    position: relative;
+    transform: translate(0, -100%);
+    margin-bottom: 1rem;
   }
   .lista {
     grid-column: 2;
