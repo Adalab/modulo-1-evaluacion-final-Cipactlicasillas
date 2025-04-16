@@ -83,7 +83,7 @@
 }
 .info {
   color: #4a4a4a;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 .ir {
   display: block;
@@ -196,4 +196,65 @@
   text-align: center;
   color: white;
   padding-top: 2rem;
+}
+@media (width > 480px) {
+  .principal {
+    font-family: var(--font-family);
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .arriba {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    padding-right: 15rem;
+    padding-left: 15rem;
+    text-align: center;
+  }
+  .info {
+    color: #4a4a4a;
+    font-size: 1.4rem;
+  }
+  .razones {
+    background-color: #eff9ff;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .compra {
+    grid-column: 1 / 4;
+  }
+  .uno {
+    grid-column: 1 / 2;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .dos {
+    grid-column: 2 / 3;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .tres {
+    grid-column: 3 / 4;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  .mas {
+    grid-column: 2 / 3;
+    display: block;
+    background-color: #f26002;
+    padding-block: 1rem;
+    padding-inline: 2rem;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    border-radius: 3rem;
+    margin-top: 1.3rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
