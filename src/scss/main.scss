@@ -155,8 +155,6 @@
   background-color: #304268;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .flecha_arriba {
@@ -175,31 +173,47 @@
 
 .lista {
   list-style: none;
-  text-align: center;
-  margin-bottom: 0.5rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
 }
 
 .menu_lista {
-  color: white;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: inherit;
   text-decoration: none;
+  list-style: none;
 }
+
 .rrss {
   list-style: none;
+  color: white;
+  display: flex;
   flex-direction: column;
-  text-align: center;
-  margin-top: 1rem;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2.5rem;
 }
 .menu_rrss {
   color: white;
   text-decoration: none;
 }
 .copy {
+  list-style: none;
+  color: white;
   display: flex;
   flex-direction: column;
-  text-align: center;
-  color: white;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  margin-bottom: 5rem;
+  padding-top: 3rem;
 }
 .copy_lista {
   list-style: none;
